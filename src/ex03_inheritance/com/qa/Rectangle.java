@@ -12,7 +12,7 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString() {
-        return "Rectangle [width=" + width + ", height=" + height + "]";
+        return "Rectangle -> [width=" + width + ", height=" + height + "]";
     }
 
     public boolean isSquare(){
