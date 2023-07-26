@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Circle location before move: " + c.getCurrentLocation());
 
-        c.move(10.5, 4.3);
+        c.move(13.5, 6.3);
 
         System.out.println("Circle location after move: " + c.getCurrentLocation());
     }
