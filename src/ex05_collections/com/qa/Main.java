@@ -16,7 +16,7 @@ public class Main {
         Rabbit r2 = new Rabbit("Cottontail", 3);
 
         //ARRAYLIST
-        ArrayList<Animal> animalList = new ArrayList<Animal>();
+        ArrayList<Animal> animalList = new ArrayList<>();
 
         animalList.add(r);
         animalList.add(d);
@@ -27,8 +27,7 @@ public class Main {
         }
 
         //HASHMAP
-        HashMap<String, Animal> animalMap =
-                new HashMap<String, Animal>();
+        HashMap<String, Animal> animalMap = new HashMap<>();
 
         animalMap.put(c.getName(), c);
         animalMap.put(c2.getName(), c2);
